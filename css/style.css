@@ -1,0 +1,512 @@
+body {
+  font-family:  "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-top {
+	height: 82px;
+	margin: 0 20px;
+	margin-bottom: 93px;
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
+	padding: 0 10px;
+	margin-bottom: 20px;
+
+}
+
+.main-header {
+	padding-top: 35px;
+	padding-bottom: 60px;
+	background-color: #6451d5;
+  	background-size: 100% auto;
+}
+
+.logo {
+	position: absolute;
+}
+
+.header-top nav {
+	padding-top: 9px;
+	margin-left: 299px;
+}
+
+.header-top nav li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.header-top nav li:last-child{
+	margin-right: 0px;
+}
+
+.header-top nav a {
+	padding: 10px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.header-top nav a:hover {
+	text-decoration: underline;
+}
+
+.header-top nav a:active {
+	color: #9285e2;
+	text-decoration: none;
+}
+
+.header-top nav li:last-child a{
+	padding-right: 0px;
+}
+
+.promo {
+  	position: relative;
+  	z-index: 10;
+  	width: 450px;
+  	height: 395px;
+	margin: 0 20px;
+}
+
+.promo::after {
+	content: "";
+	position: absolute;
+	left: 380px;
+	top: -20px;
+	background: url("../img/items.png") no-repeat;
+	width: 653px;
+  	height: 453px;
+  	z-index: -1;
+}
+
+.promo .title {
+	font-size: 45px;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.promo p {
+	width: 350px;
+	margin-top: 36px;
+	color: #bcb3f2;
+	line-height: 30px; 
+	font-size: 18px;
+	font-family: "Meiryo UI", Arial, sans-serif;
+}
+
+.promo .btn {
+	margin-top: 31px;
+	width: 274px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 23px;
+	vertical-align: top;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.promo .btn-blue {
+	background: #382d78;
+}
+
+.promo .btn-blue:hover {
+	background: #32286c;
+}
+
+.promo .btn-blue:active {
+	color: #6f6898;
+}
+
+.layout-features {
+	width: 1080px;
+	height: 187px;
+	margin: auto auto;
+}
+
+.features {
+	padding-top: 50px;
+	padding-bottom: 45px;
+	background: #efefef;
+}
+
+.features-item {
+	margin-right: 30px;
+	float: left;
+	width: 320px;
+	height: 100%;
+	text-align: center;
+}
+
+.features-item:first-child {
+	margin-left: 30px;
+}
+
+.layout-features::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.features-icon {
+	margin-top: -4px;
+	position: relative;
+	margin-left: 124px;
+	width: 73px;
+	height: 75px;
+	background: url("../img/sprite.png") no-repeat;
+}
+
+.features-icon-schedule {
+	background-position:0px 0px;
+}
+
+.features-icon-tools {
+	background-position: -73px 0px;
+	width: 75px;
+}
+
+.features-icon-ready {
+	background-position: -154px 0px;
+}
+
+.features-item p{
+	color: #555555;
+	font-size: 18px;
+	margin-top: 26px;
+}
+
+.features-item .title {
+	margin-top: 19px;
+	font-size: 22px;
+}
+
+.education {
+	padding-top: 13px;
+	padding-bottom: 70px;
+	background: white;
+}
+
+.layout-education {
+	padding: 0 30px;
+	width: 1020px;
+	margin: 0 auto;
+	background: white;
+}
+
+.layout-education h2{
+	height: 50px;
+	margin-bottom: 60px;
+	font-size: 45px;
+	line-height: 50px
+}
+
+.layout-education table{
+	height: 278px;
+	width: 100%;
+	background: white;
+	border-collapse: collapse;
+}
+
+.layout-education table td {
+	border: 2px solid #a7a7a7;
+	padding: 20px 0;
+	padding-left: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: sans-serif;
+}
+
+.layout-education table tr:first-child td:nth-child(1) {
+	width: 255px;
+}
+
+.layout-education table tr:first-child td:nth-child(2) {
+	width: 160px;
+}
+
+.layout-education table tr:first-child td:nth-child(n) {
+	vertical-align: middle; 
+	font-size: 18px;
+	font-family: Tahoma, sans-serif;
+	color: #404040;
+}
+
+.layout-education table tr:nth-child(n + 2) td:nth-child(-n + 2) {
+	vertical-align: top; 
+	font-size: 22px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	padding-top: 19px;
+	color: #000000;
+}
+
+.layout-education table tr:nth-child(n + 2) td:nth-child(n + 3) {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-right: 30px;
+	color: #404040;
+	font-family: Tahoma, sans-serif;
+}
+
+.layout-education table tr:first-child {
+	background: #efefef;
+}
+
+.contacts {
+	background: #efefef;
+	padding-top: 13px;
+	padding-bottom: 50px;
+}
+
+.layout-contacts {
+/*	margin-top: 20px;
+	margin-bottom: 20px;*/
+	min-height: 300px;
+	padding: 0 30px;
+	width: 1020px;
+	margin: 0 auto;
+}
+
+.layout-column-1 {
+	margin-top: 22px;
+	float: left;
+	width: 640px;
+	height: 380px;
+	margin-right: 30px;
+}
+
+.layout-column-2 {
+	margin-top: 22px;
+	float: right;
+	height: 370px;
+	width: 320px;
+}
+
+.layout-contacts::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.layout-contacts h2 {
+	line-height: 50px;
+	font-size: 45px;
+	height: 50px;
+}
+
+.contacts input[type = "text"] {
+	width: 515px;
+	height: 58px;
+	padding-left: 25px;
+	font-size: 18px;
+	border: 2px solid #b2b2b2
+	color: #404040;
+	box-sizing: border-box;
+}
+
+.contacts input[type = "text"]:hover {
+	border: 2px solid black;
+}	
+
+.contacts input[type = "text"]:active {
+	border: 2px solid #6451d5;
+}	
+
+.contacts input[type = "radio"]:hover {
+	background: #c4c4c4;
+	color: #404040;
+	
+}
+
+.contacts textarea {
+	width: 515px;
+	height: 100px;
+	padding-left: 25px;
+	padding-top: 15px;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	border: 2px solid #b2b2b2;
+	box-sizing: border-box;
+}
+
+.contacts textarea:hover {
+	border: 2px solid black;
+}	
+
+.contacts textarea:active {
+	border: 2px solid #6451d5;
+}
+
+.contacts input[type = "button"] {
+	width: 515px;
+	height: 70px;
+	background: #382d78;
+	margin-top: 20px;
+	color: white;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.contacts input[type = "button"]:hover {
+	background: #32286c;
+}
+
+.contacts input[type = "button"]:active {
+	color: #6f6898;
+}
+
+.contacts .gap {
+	margin-right: 50px;
+	margin-left: 15px;
+}
+
+.contacts tr:nth-child(n) td:nth-child(1) {
+	height: 70px;
+	width: 95px;
+	text-align: right;
+	font-size: 19px;
+	font-width: bold;
+}
+
+.contacts tr:nth-child(3) td:nth-child(1) {
+	padding-top: 17px;
+	vertical-align: top;
+}
+
+.contacts tr:nth-child(n) td:nth-child(2) {
+	padding-left: 9px;
+}
+
+.contacts .layout-column-2 h3 {
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+.contacts .layout-column-2 p {
+	font-size: 18px;
+	margin-top: 35px;
+	color: #555555;
+	font-family: Arial, sans-serif;
+}
+
+.contacts .layout-column-2 p b{
+	color: black;
+}
+
+.contacts tr:nth-child(2) td:nth-child(2) {
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+.contacts tr:nth-child(2) td:nth-child(2) input{
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.contacts tr:nth-child(2) td:nth-child(2) span{
+	vertical-align: middle;
+}
+
+.contacts tr:nth-child(2) td:nth-child(2) label{
+	margin-right: 50px;
+}
+
+.contacts table {
+	margin-left: -4px;
+}
+
+.main-footer {
+	padding: 65px 0px;
+	padding-bottom: 75px;
+	background: #2a2546;
+}
+
+.main-footer .list {
+	display: inline-block;
+	width: 180px;
+	height: 209px;
+	margin-right: -5px;
+	vertical-align: top; 
+}
+
+.main-footer .list h3 {
+	margin-top: 0px;
+	color: white; 
+}
+
+.main-footer .list ul {
+	list-style: none;
+}
+
+.main-footer .list ul li {
+	margin-left: -40px;
+	margin-top: 30px;
+}
+
+.main-footer .list ul a {
+	font-size: 18px;
+	color: #bcb3f2; 
+	text-decoration: none;
+}
+
+.main-footer .list ul a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.main-footer .list ul a:active {
+	text-decoration: none;
+	color: #69667d;
+}
+
+.main-footer .logo-script {
+	position: absolute;
+	top: 0;
+	width: 300px;
+	height: 208px;
+}
+
+.main-footer .logo-script p {
+	margin-top: 70px;
+	font-size: 18px;
+	color: white;
+}
+
+.main-footer .list-studing {
+	margin-left: 340px;
+}
+
+.main-footer .list-contacts {
+	margin-left: 5px;
+	margin-right: 0px;
+	width: 135.5px;
+}
+
+.main-footer .layout-footer {
+	width: 1020px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.main-footer .layout-pac {
+	position: relative;
+	padding-top: 25px;
+}
